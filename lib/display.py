@@ -73,7 +73,6 @@ class Display(object):
             blocks = 0
             display = ""
             spacing = ""
-            progress = input("Enter a percentage: ")
 
             if int(progress) <= 9:
                 blocks = 0
