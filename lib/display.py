@@ -69,7 +69,7 @@ class Display(object):
                 Fore.YELLOW, Fore.WHITE, Fore.CYAN, account_exists, Fore.RESET
             ))
 
-            progress = complete
+            progress = round(complete)
             blocks = 0
             display = ""
             spacing = ""
