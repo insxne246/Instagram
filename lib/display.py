@@ -99,7 +99,7 @@ class Display(object):
             elif int(progress) <= 85:
                 display = "################################"
                 spacing = "        "
-            elif int(progress) <= 95:
+            elif int(progress) <= 99:
                 display = "####################################"
                 spacing ="    "
             elif int(progress) == 100:
