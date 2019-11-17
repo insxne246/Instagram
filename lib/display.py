@@ -95,7 +95,7 @@ class Display(object):
                 spacing = "                "
             elif int(progress) <= 75:
                 display = "############################"
-                spacing = "      "
+                spacing = "            "
             elif int(progress) <= 85:
                 display = "################################"
                 spacing = "        "
@@ -106,9 +106,9 @@ class Display(object):
                 display = "########################################"
                 spacing = ""
             print("")
-            print("_____________________________________________")
+            print("______________________________________________")
             print("|" + display + " " + progress + "% " + spacing + "|" )
-            print("---------------------------------------------")
+            print("----------------------------------------------")
             print("")
             print("")
 
